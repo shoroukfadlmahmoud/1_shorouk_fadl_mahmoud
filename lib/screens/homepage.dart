@@ -32,7 +32,7 @@ class _homepageState extends State<homepage> {
                 onPressed: () {
                  Navigator.of(context).push(
                     MaterialPageRoute(
-                      builder: (_) => TrackLocation(),
+                      builder: (_) => TrackingLocation(),
                     ),).catchError((onError){
                         print(onError);
                   });
