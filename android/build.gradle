@@ -26,10 +26,4 @@ subprojects {
     project.evaluationDependsOn(':app')
 }
 
-<<<<<<< HEAD
-task clean(type: Delete) {
-=======
-tasks.register("clean", Delete) {
->>>>>>> faafb36 (Initial commit)
-    delete rootProject.buildDir
-}
+

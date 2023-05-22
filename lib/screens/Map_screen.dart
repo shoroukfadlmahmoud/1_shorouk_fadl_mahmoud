@@ -15,7 +15,8 @@ class TrackingLocation extends StatefulWidget {
 class _TrackingLocationState extends State<TrackingLocation> {
 
   final controller = MapController(
-      initMapWithUserPosition: false
+      initMapWithUserPosition: false,
+      initPosition: GeoPoint(latitude: 	29.3198101, longitude: 30.8355472)
 
   );
   bool enabletracking = false;
